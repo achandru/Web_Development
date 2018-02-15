@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Table */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 25%;
+    height: 1000px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 20px 12px;
+    border: 1px solid #ccc;
+    width: 75%;
+    border-left: none;
+    height: 1000px;
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Personal_Details')" id="defaultOpen">Personal_Details</button>
+  <button class="tablinks" onclick="openCity(event, 'Objective')">Objective</button>
+  <button class="tablinks" onclick="openCity(event, 'Personal_Skills')">Personal_Skills</button>
+  <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
+  <button class="tablinks" onclick="openCity(event, 'Skill_Set')">Skill_Set</button>
+  <button class="tablinks" onclick="openCity(event, 'Professional_Experience')">Professional_Experience</button>
+  <button class="tablinks" onclick="openCity(event, 'Achievements')">Achievements</button>
+  <button class="tablinks" onclick="openCity(event, 'Personal_Data')">Personal_Data</button>	
+  <button class="tablinks" onclick="openCity(event, 'Declaration')">Declaration</button>
+  <button class="tablinks" onclick="openCity(event, 'Conclusion')">Conclusion</button>
+</div>
+
+<div id="Personal_Details" class="tabcontent" align="center">
+<p><h1><font color="blue"><b>Chandrasekaran A</b></font></h1><br>
+<h4>7/89/1 SNS Luxury PG;4th Main Road,<br>
+Dollar Layout,1st Stage, BTM 2nd Stage,<br>
+Bengaluru, Karnataka – 560 076.<br>
+
+<div align="left">
+Email Id: achandrumca@gmail.com
+</div>
+
+<div align="right">
+Mobile  :  +91 9524431646</h4><br></p>
+</div></div>
+
+<div id="Objective" class="tabcontent">
+
+  <p>To work in an engaging, challenging environment where I can learn new skills while contributing towards the organizations success.</p> 
+</div>
+
+
+<div id="Personal_Skills" class="tabcontent" >
+    <p>
+<ul style="list-style-type:disc">
+<li>Quick learner, willing and able to quickly grasp new ideas, concepts, and methods.</li><br>
+<li>Learning and organizing skills matched with the ability to manage stress, time and people effectively.</li></p></ul>
+</div>
+
+<div id="Education" class="tabcontent">
+<table>
+  <tr>
+    <th>Course</th>
+    <th>Percentage</th>
+    <th>Name of University</th>
+  </tr>
+  <tr>
+    <td>MCA</td>
+    <td>69</td>
+    <td>Bharathidasan University,Tiruchirappalli,Tamil Nadu.</td>
+  </tr>
+  <tr>
+    <td>B.Sc(Computer Science)</td>
+    <td>72</td>
+    <td>Bharathidasan University,Tiruchirappalli,Tamil Nadu.</td>
+  </tr>
+</table>
+ </div>
+
+<div id="Skill_Set" class="tabcontent">
+
+<table>
+  <tr>
+    <th scope="row">Language</th>
+    <td>Python,R</td>
+
+  </tr>
+  <tr>
+    <th scope="row">Databases</th>
+    <td>MySQL,Cassandra</td>
+     </tr>
+  <tr>
+    <th scope="row">Tools</th>
+    <td>R Studio,Jira, Git,J Meter,Trello, Bitbucket</td>
+  </tr>
+    <tr>
+    <th scope="row">Other Skills</th>
+    <td>MS-Office,SCSI,RAID5,Software Testing (Manual / Automation)
+Web Development(Html,CSS,Bootstrap & Javascript)
+</td>
+  </tr>
+   <tr>
+    <th scope="row">Operating System</th>
+    <td>Ubuntu 16.04 LTS , Windows 7 & 10</td>
+     </tr>
+</table>
+</div>
+
+<div id="Professional_Experience" class="tabcontent">
+
+  <p>
+
+<h1><b>dAlchemy Inc.,</b></h1>
+<h3>Software developer, June 2017 - Present</h3>
+
+<h4>dAlchemy provides Data Analytics Solutions and builds Data Driven Applications for clients in various business domains.</h4>
+
+<h4>Roles & Responsibilities</h4>
+<ul style="list-style-type:disc">
+<li>Responsible for writing test cases and running the tests to find product bugs </li>
+<li>Responsible for creating and maintaining the product documentation.</li>
+<li>Wrote test automation for plug load management of Enmetric devices.</li> 
+<li>Responsible for UI testing and for writing the scripts for simulating disk failure on SCSI disks.</li></ul>
+
+
+<h1><b>Youplus Inc.,</b></h1>
+<h3>Software quality assurance engineer, October 2016 - May 2017</h3>
+
+<h4>Youplus is an application that allows people to share their opinions on topics they care about,give their feedback on products they love and engage with others’ opinions.</h4> 
+
+<h4>Roles & Responsibilities</h4>
+<ul style="list-style-type:disc">
+<li>Responsible for writing and running functional tests, stress, performance & scalability tests, and internationalization tests. </li>
+<li>Worked closely with the development team and the management team to ensure that product shipped to customers was of the highest quality.</li></ul>
+
+<h1><b>Tata Consultancy Services</b></h1>
+
+<h3>Web analyst in News (Bloomberg), October-2015 – September-2016</h3>
+ 
+<h4>Roles & Responsibilities</h4>
+
+<ul style="list-style-type:disc">
+<li>Viewing Company websites and grabbing the news content in that site using Client tool.(Bloomberg)</li>
+<li>Analyzing the news section of the website is worthy or not.</li>
+<li>Training Client tool on that site for future grabbing of news.</li>
+<li>Analyzing the problems in the website and mentioning it to the Client.</li></ul>
+<h3>Quality checking the jobs that are done.</h3>
+
+<h3>Team member-BNSF-RAILWAY, September-2012 to October-2015</h3>
+
+<h4>Roles & Responsibilities</h4>
+
+<ul style="list-style-type:disc">
+<li>Retrieving files from BNSF store using secure FTP Process, extracting and decrypting the received files for upload to the workflow engine.</li></ul>
+</p> 
+</div>
+
+<div id="Achievements" class="tabcontent">
+
+<ul style="list-style-type:disc">
+<li>Awarded as a Star of the month for maintaining good productivity(March 2016 & August -2016)  in Web Crawler.</li><br>
+<li>Awarded as a Star of the month for maintaining good productivity(August -2015)  in BNSF RAILWAY.</li></p></ul>
+</div>
+
+<div id="Personal_Data" class="tabcontent">
+<table>
+  <tr>
+    <th scope="row">Name:</th>
+    <td>Chandrasekaran A</td>
+
+  </tr>
+  <tr>
+    <th scope="row"> Father’s Name:</th>
+    <td>Annadurai V</td>
+  </tr>
+  <tr>
+    <th scope="row">Date of Birth:</th>
+    <td>15-10-1989 </td>
+  </tr>
+   <tr>
+    <th scope="row"> Marital Status:</th>
+    <td>Single</td>
+  </tr>
+  <tr>
+    <th scope="row"> Nationality:</th>
+    <td>Indian</td>
+  </tr>
+  <tr>
+    <th scope="row">Languages Known:</th>
+    <td>Tamil, English,Kannada</td>
+  </tr>
+   <tr>
+    <th scope="row">Hobbies:</th>
+    <td>Surfing with Internet , Listening Music</td>
+  </tr>
+   <tr>
+    <th scope="row">Passport Number:</th>
+    <td>L2943562</td>
+  </tr>
+</table>
+</div>
+
+<div id="Declaration" class="tabcontent">
+
+  <p>I hereby declare that all the information given in this form is true to the best of my knowledge.</p> 
+</div>
+
+<div id="Conclusion" class="tabcontent">
+  <p>                                                                                      
+<div align="left">
+Place: Bangalore <br>
+Date:
+</div>
+
+<div align="right">
+CHANDRASEKARAN A <br></p>
+</div>
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
+
